@@ -1,0 +1,53 @@
+{
+  "name": "xauras",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@reown/appkit": "^1.7.4",
+    "@reown/appkit-adapter-wagmi": "^1.7.4",
+    "@tanstack/react-query": "^5.75.5",
+    "@tanstack/react-table": "^8.21.3",
+    "@web3modal/wagmi": "^4.2.1",
+    "apexcharts": "^5.3.3",
+    "axios": "^1.9.0",
+    "ethers": "^6.11.1",
+    "framer-motion": "^10.12.16",
+    "jotai": "^2.12.4",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.7.0",
+    "react-calendar": "^6.0.0",
+    "react-custom-scrollbars-2": "^4.5.0",
+    "react-d3-tree": "^3.6.6",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.3.8",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.15.0",
+    "stylis-plugin-rtl": "^2.1.1",
+    "viem": "^2.29.0",
+    "wagmi": "^2.15.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^4.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "sass": "^1.90.0",
+    "vite": "^7.1.2"
+  }
+}
